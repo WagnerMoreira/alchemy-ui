@@ -1,4 +1,6 @@
-import * as React from 'react';
+import 'normalize.css'
+
+import React from 'react';
 
 export interface IButtonProps {
   children?: React.ReactNode,
