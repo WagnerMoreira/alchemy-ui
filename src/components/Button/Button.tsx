@@ -2,7 +2,7 @@ import 'normalize.css'
 
 import React from 'react';
 
-export interface IButtonProps {
+export interface ButtonProps {
   children?: React.ReactNode,
   onClick?: (e:any) => void
 }
@@ -17,7 +17,7 @@ const styles = {
   margin: 10,
 };
 
-const Button: React.SFC<IButtonProps> = (props) => (
+const Button: React.SFC<ButtonProps> = (props) => (
   <button onClick={props.onClick} style={styles} type="button">
     {props.children}
   </button>

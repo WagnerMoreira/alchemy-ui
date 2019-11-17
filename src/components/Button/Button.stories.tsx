@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Button from "./Button";
 
-storiesOf("Button", module)
+storiesOf("UI Components | Button", module)
   .add("with text", () => (
     <Button>Hello Button</Button>
   ))
