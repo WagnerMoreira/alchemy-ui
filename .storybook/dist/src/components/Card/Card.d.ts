@@ -1,4 +1,4 @@
 /// <reference types="react" />
-import './Card.css';
+import './card.css';
 declare function Card(): JSX.Element;
 export default Card;
