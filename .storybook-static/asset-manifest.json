@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/main.css",
+    "main.js": "/main.c7c3cf7c6b5718653254.bundle.js",
+    "main.css.map": "/main.css.map",
+    "main.js.map": "/main.c7c3cf7c6b5718653254.bundle.js.map",
+    "runtime~main.js": "/runtime~main.c7c3cf7c6b5718653254.bundle.js",
+    "runtime~main.js.map": "/runtime~main.c7c3cf7c6b5718653254.bundle.js.map",
+    "vendors~main.css": "/vendors~main.css",
+    "vendors~main.js": "/vendors~main.c7c3cf7c6b5718653254.bundle.js",
+    "vendors~main.css.map": "/vendors~main.css.map",
+    "vendors~main.js.map": "/vendors~main.c7c3cf7c6b5718653254.bundle.js.map",
+    "../.storybook/dist/src/components/Button/Button.d.ts": "/../.storybook/dist/src/components/Button/Button.d.ts",
+    "../.storybook/dist/src/components/Button/Button.stories.d.ts": "/../.storybook/dist/src/components/Button/Button.stories.d.ts",
+    "../.storybook/dist/src/components/Card/Card.d.ts": "/../.storybook/dist/src/components/Card/Card.d.ts",
+    "../.storybook/dist/src/components/Card/Card.stories.d.ts": "/../.storybook/dist/src/components/Card/Card.stories.d.ts",
+    "../.storybook/dist/src/components/Draggable/Draggable.d.ts": "/../.storybook/dist/src/components/Draggable/Draggable.d.ts",
+    "../.storybook/dist/src/components/Draggable/Draggable.stories.d.ts": "/../.storybook/dist/src/components/Draggable/Draggable.stories.d.ts",
+    "../.storybook/dist/src/components/Image/Image.d.ts": "/../.storybook/dist/src/components/Image/Image.d.ts",
+    "../.storybook/dist/src/components/Image/Image.stories.d.ts": "/../.storybook/dist/src/components/Image/Image.stories.d.ts",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.ef2b7523e1592b405be1ff6be8689fba.js": "/precache-manifest.ef2b7523e1592b405be1ff6be8689fba.js",
+    "service-worker.js": "/service-worker.js"
+  },
+  "entrypoints": [
+    "runtime~main.c7c3cf7c6b5718653254.bundle.js",
+    "vendors~main.css",
+    "vendors~main.c7c3cf7c6b5718653254.bundle.js",
+    "main.css",
+    "main.c7c3cf7c6b5718653254.bundle.js"
+  ]
+}
