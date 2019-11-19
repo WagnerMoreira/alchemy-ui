@@ -10,7 +10,6 @@ const Draggable: React.FunctionComponent = () => {
     set({ x: down ? x : 0, y: down ? y : 0, scale: down ? 1.2 : 1 })
   })
 
-  console.log('###bind', {...bind()})
   return <animated.div {...bind()} style={props} />
 }
 

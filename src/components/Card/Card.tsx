@@ -11,7 +11,9 @@ function Card() {
   //setup hook for drag card feature
   const [{ x, y }, setDrag] = useSpring(() => ({ x: 0, y: 0 }))
   // Defining the gesture to be used to drag the card
-  const bind = useDrag(({ down, movement: [mx, my] }) => setDrag({ x: down ? mx : 0, my: down ? y : 0 }))
+  const bind = useDrag(({ down, movement: [x, y] }) => {
+    setDrag({ x: down ? x : 0, y: down ? y : 0, scale: down ? 1.2 : 1 })
+  })
 
   //setup hook for mouseMove effect
   const [props, setMouseMove] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
